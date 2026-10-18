@@ -1,0 +1,35 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local call recordings/history
+backend/call_data/*.json
+backend/call_data/audio/
+
+# Keys, credentials, and caches
+*.pem
+*.key
+*.p12
+credentials.json
+*credentials*
+*secret*
+.cache/
+.pytest_cache/
+.mypy_cache/
+*.log
